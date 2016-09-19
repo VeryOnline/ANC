@@ -1,0 +1,23 @@
+#Summary (1 line 50 chars max)
+
+#Commit tag
+Tag:
+
+#Tag legend
+#[f.ix | r.eport | u.pdate | n.ew] _
+#[t.est | s.ource | f.ilestructure | m.isc] _
+#[version number (as indicated in git tag)] _
+#[UID in format "UNIXTIMESTAMP" with random ">" chars interlaced]
+# eg. u_s_1.0.0_14>>743>1>5385>
+
+DETAILS
+#Elaborate on commit
+
+FIXED
+#(1) List issues fixed following the format (issue tag here!)
+
+TO DO
+#(1) List things to do (don't forget to reference any tags!)
+
+ADMIN
+#Author - DD/MM/YYYY - KEY

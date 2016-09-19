@@ -14,9 +14,10 @@ from anc_tools import *;
 # path = os.getpwd();
 # print(path);
 
-test = IO("C:\\Users\\Admin\\Desktop\\EclipseMars\\workspace\\ANC\\data\\cnc.txt");
+test = io.IO("/dev/snd/pcmC0D0p", 'binary');
 test_ = test.Push();
-print(ARRAY_TOOLS().Decompose(test_[0]));
+print(test_);
+#print(ARRAY_TOOLS().Decompose(test_[0]));
 
 # test.Write(test.InputDecom(), 'C:\\Users\\Admin\\Desktop\\EclipseMars\\workspace\\ANC\\data\\cnc1.txt');
 # while i == 1 :

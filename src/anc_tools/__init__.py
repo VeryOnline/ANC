@@ -1,2 +1,1 @@
-from anc_tools.io import *;
-from anc_tools.array_tools import *;
+__all__ = ["array_tools","io"];
