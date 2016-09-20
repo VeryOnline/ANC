@@ -4,9 +4,11 @@ ambient noise, generate the corresponding anti-waveform and play it through the 
 to facilitate learning Python. 
 
 ## Stuff done
-* Basic IO operations from txt file.
+* IO object for reading and writing from internal objects, text and bytes.
+* Tests for IO func.
 * Some list manipulation tools.
 
 ## To do
-* Design dedicated data retrieval routine from soundcard for microphone (I am aware there are libraries for this)
-* Look into FFT as a means to generate waveform (again, I am aware others have done this)
+* Figure out how to write to sound device (urgent)
+* Test for list manipulation tools
+* Look into FFT and implementation (do way later)

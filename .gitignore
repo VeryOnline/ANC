@@ -1,5 +1,10 @@
 # Ignore temp files for remote systems
 RemoteSystemsTempFiles/
+.metadata/
+
+# Ignore IDE specific files (Eclipse)
+.pydevproject
+.project
 
 # Ignore temp files from text editors
 *.~
@@ -10,5 +15,6 @@ RemoteSystemsTempFiles/
 # Ignore test temp files
 test/test*
 
-# Except actual test files
+#############################################
+# Accept actual test files
 !test/test*.py
